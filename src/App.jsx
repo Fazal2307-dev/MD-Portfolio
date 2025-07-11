@@ -1,9 +1,16 @@
 import React from 'react'
+import Home from './Components/Home'
+import Resume from './Components/Resume'
+import POW from './Components/POW'
+import ContactUs from './Components/ContactUs'
 
 const App = () => {
   return (
     <div>
-      <h2 className='text-yellow'>hey</h2>
+    <Home />
+    <Resume />
+    <POW />
+    <ContactUs />
     </div>
   )
 }
